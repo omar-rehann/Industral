@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- start nav bar -->
+    <nav class="navbar bg-body-tertiary fixed-top mb-2">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">Industral</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Wekcome To New Job</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- end nav bar -->
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- start landing -->
+    <div class="landing mt-4 pt-4">
+        <div class="continer">
+            <div class="row  align-items-center">
+                
+                <div class="col-md-6 col-lg-6 ">
+                    <div class="text mt-2 lh-lg  m-2 ms-5 "  >
+                        <h1 class="text-dark display-1">Home Repair Services</h1>
+                        <p class="text-dark">Find amazing home repair services tailored for you. Handy connects you with amazing home repair professionals.</p>
+                        <button class="btn btn-dark mb-2">Contact Us</button>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="image" >
+                        <img src="img/min.png" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end landing -->
+     <!-- -------------------------------------------------------------------------- -->
+     <!-- statrt about -->
+     <div class="about bg-dark p-4">
+        <div class="continer text-center">
+            <div class="text">
+                <h1 class="text-light">​Why Choose Our Company For </h1>
+                <h1 class="text-light"> Your Home Repairs?</h1>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis id facilis voluptatum vitae molestiae explicabo nemo ipsam qui magnam facere?</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="box text-center mb-1" style="background-color: white;padding: 20px;border-radius: 7px;">
+                        <div class="image">
+                            <img src="https://img.freepik.com/free-photo/company-manager-african-american-worker-cooperating-while-analzying-production-plans-meeting-factory_637285-4138.jpg?size=626&ext=jpg&ga=GA1.2.159109612.1694961865&semt=ais" style="width: 200px;height: 200px;border-radius: 50%;border:  solid 6px #ffca01;" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>​High-Quality</h3>
+                            <p>​We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience.</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box text-center mb-1" style="background-color: white;padding: 20px;border-radius: 7px;">
+                        <div class="image">
+                            <img src="https://img.freepik.com/free-photo/man-safety-equipment-his-workplace_23-2148976363.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" style="width: 200px;height: 200px;border-radius: 50%;border:  solid 6px #ffca01;" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>​FlexAble</h3>
+                            <p>​We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience.</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box text-center mb-1" style="background-color: white;padding: 20px;border-radius: 7px;">
+                        <div class="image">
+                            <img src="https://img.freepik.com/free-photo/workman-making-ok-sign-white-background_1368-12026.jpg?size=626&ext=jpg&ga=GA1.2.159109612.1694961865&semt=ais" style="width: 200px;height: 200px;border-radius: 50%;border:  solid 6px #ffca01;" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>​Faster-Legal</h3>
+                            <p>​We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience.</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box text-center mb-1" style="background-color: white;padding: 20px;border-radius: 7px;">
+                        <div class="image">
+                            <img src="https://img.freepik.com/premium-photo/factory-workers-meeting-with-management_236854-9778.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" style="width: 200px;height: 200px;border-radius: 50%;border:  solid 6px #ffca01;" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>​Profeccional</h3>
+                            <p>​We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience.</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box text-center mb-1" style="background-color: white;padding: 20px;border-radius: 7px;">
+                        <div class="image">
+                            <img src="https://img.freepik.com/free-photo/factory-workers-checking-quality-products-industrial-warehouse_342744-209.jpg?size=626&ext=jpg&ga=GA1.2.159109612.1694961865&semt=ais" style="width: 200px;height: 200px;border-radius: 50%;border:  solid 6px #ffca01;" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>​High-Quality</h3>
+                            <p>​We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience.</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box text-center mb-1" style="background-color: white;padding: 20px;border-radius: 7px;">
+                        <div class="image">
+                            <img src="https://img.freepik.com/premium-photo/colleagues-working-furniture-factory_35752-14198.jpg?size=626&ext=jpg&ga=GA1.2.159109612.1694961865&semt=ais" style="width: 200px;height: 200px;border-radius: 50%;border:  solid 6px #ffca01;" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>​Build-Fast</h3>
+                            <p>​We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience.</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box text-center mb-1" style="background-color: white;padding: 20px;border-radius: 7px;">
+                        <div class="image">
+                            <img src="https://img.freepik.com/premium-photo/handsome-caucasian-businessman-suit-with-protective-helmet-head-holding-folder-with-documents-while-standing-power-plant_232070-2878.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" style="width: 200px;height: 200px;border-radius: 50%;border:  solid 6px #ffca01;"alt="">
+                        </div>
+                        <div class="text">
+                            <h3>​Organztions</h3>
+                            <p>​We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience.</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="box text-center mb-1" style="background-color: white;padding: 20px;border-radius: 7px;">
+                        <div class="image">
+                            <img src="https://img.freepik.com/free-photo/supervisor-manager-male-engineer-worker-wears-uniform-working-hand-use-laptop-stock-checking-store-warehouse-shipping-industrial-team-with-safety-uniform-checking-quantity-product-shelf_609648-593.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=ais" style="width: 200px;height: 200px;border-radius: 50%;border:  solid 6px #ffca01;" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>​High-Build</h3>
+                            <p>​We use high-quality materials, professional tools and supplies, and attention to detail not found in most home improvement companies. From small jobs to large ones, you can rely on the experience.</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="end text-center mt-4">
+                <p class="text-light h5" style="font-style: italic;">Image Frame Freepick</p>
+            </div>
+        </div>
+     </div>
+     <!-- end about -->
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- start landign two -->
+    <div class="photo" style="background-color: #ffca01;">
+        <div class="continer">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/b79cd1154dce5a568445645e/eeee-min.jpg" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="text m-2 ms-4">
+                        <h1>Reliable, Trusted, and Professional Services</h1>
+                        <p class="h6">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div class="info d-flex justify-content-around">
+                        <div class="box">
+                            <p class="h6"> <i class="fa-solid fa-check" style="color: #ffffff;background-color: black;border-radius: 50%;padding: 3px;margin-right: 10px;font-size: 12px;"></i>Office</p>
+                            <p class="h6"><i class="fa-solid fa-check" style="color: #ffffff;background-color: black;border-radius: 50%;padding: 3px;margin-right: 10px;font-size: 12px;"></i>Living Room</p>
+
+                        </div>
+                        <div class="box">
+                            <p class="h6"><i class="fa-solid fa-check" style="color: #ffffff;background-color: black;border-radius: 50%;padding: 3px;margin-right: 10px;font-size: 12px;"></i>Kitchen</p>
+                            <p class="h6"><i class="fa-solid fa-check" style="color: #ffffff;background-color: black;border-radius: 50%;padding: 3px;margin-right: 10px;font-size: 12px;"></i>assement</p>
+
+                        </div>
+                    </div>
+                    <div class="end mt-5">
+                        <p class="text-dark ms-2 h6 ms-4">Image Frame Freepick</span></p>
+                    </div>
+                    
+                </div>
+            </div>
+    
+
+        </div>
+    </div>
+    <!-- end landing two -->
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- start service -->
+    <div class="services mt-5">
+        <div class="continer text-center mb-5">
+            <h1 class="text-dark">Home Repair Services
+            </h1>
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01;padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Kitchen Repair
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01;padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Grout Repair
+
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01;padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Shower Head Repair
+
+
+
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01;padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Bathroom Repair
+
+
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01;padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Toilet Repair
+
+
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01; padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Sink Repair
+
+
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01;padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Ceiling Fan Repair
+
+
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01; padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Light Fixture Repair
+
+
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box lh-lg mb-3" style="border-top:  solid 7px #ffca01; padding: 5px;">
+                        <div style="width: 20px;height: 20px;border-radius: 50%;background-color: #ffca01;"></div>
+                        <h3>Dark Fixture Main
+
+
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end services -->
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- start landing services -->
+    <div class="ser-lan mt-5 mb-5">
+        <div class="continer">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-person-digging" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px;"></i>
+                          <h5 class="card-title">Flooring</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card  mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-paintbrush" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px"></i>
+                          <h5 class="card-title">Painting</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card  mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-plug" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px"></i>
+                          <h5 class="card-title">Electrical Work
+                        </h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card  mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-regular fa-lightbulb" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px"></i>
+                          <h5 class="card-title">Carpentry
+                        </h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card  mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-bolt-lightning" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px"></i>
+                          <h5 class="card-title">Settings</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card  mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-car-battery" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px"></i>
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card  mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-microchip" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px"></i>
+                          <h5 class="card-title">Work Hard</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card  mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-helmet-safety" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px"></i>
+                          <h5 class="card-title">Define Indust</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card  mb-2" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-regular fa-hard-drive" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;font-size: 30px"></i>
+                          <h5 class="card-title">Electric Points</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end servcies landing -->
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- start think -->
+    <div class="think" style="background-color: #ffca01;">
+        <div class="continer mt-5 pt-3">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-6">
+                    <div class="text ms-5">
+                        <h1 class="text-dark  " style="font-weight: bold;"> Your Home Repairs Services <br> for the Inside</h1>
+                        <p class="text-dark h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eum. Esse expedita aliquam magni rem. Cumque, incidunt nemo! Laborum laboriosam alias, amet omnis veritatis velit maxime impedit quaerat voluptates tempora.</p>
+                        <h6 class="text-dark h6" style="font-style: italic;">Image For Freepik</h6>
+                        <button class="btn btn-outline-dark mt-3">Leran More</button>
+                    </div>
+                    
+
+
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/058e993a94f85197b38d2f59/77-min.jpg" class="img-fluid" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- end think -->
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- start message -->
+    <div class="message">
+        <div class="continer text-center mt-5">
+            <h1 class="text-dark">Send Message Us</h1>
+        </div>
+        <div class="content">
+            <div class="row m-2">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="https://img.freepik.com/premium-photo/business-team-manager-meeting_183219-11.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="https://img.freepik.com/free-photo/high-angle-view-cropped-employee-work-with-laptop_1098-20470.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="https://img.freepik.com/premium-photo/group-business-people-work-together-office_207634-6048.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="https://img.freepik.com/free-photo/close-up-people-s-hands-working-computers_53876-15341.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="https://img.freepik.com/free-photo/blurred-soft-people-meeting-table-business-people-talking-modern-office-generative-ai_1258-150801.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="https://img.freepik.com/free-photo/group-people-working-out-business-plan-office_1303-15861.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="https://img.freepik.com/free-photo/close-up-businessman-with-digital-tablet_1098-549.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="https://img.freepik.com/premium-photo/side-view-meeting-room-with-light-modern-furniture-city-view-from-glass-wall-blurred-glass-partition-from-office-area-with-concrete-floor-3d-rendering_688884-13.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-2" style="width: 100%;">
+                        <img src="img/rf.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <!-- end message -->
+    <!-- -------------------------------------------------------------------------- -->
+        <!-- start profeesional -->
+        <div class="prof bg-dark">
+            <div class="continer text-center lh-lg">
+                <h1 class="text-light pt-5">Professional Services
+                </h1>
+                <p class="text-light">We’ll Leave Your Home Safer Than We Found It
+
+                </p>
+            </div>
+            <div class="content">
+                <div class="row m-2">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box lh-lg mb-3 bg-light p-3" style="border-top:  solid 7px #ffca01; padding: 5px;">
+                            <h3>ELECTRICAL SERVICES
+
+    
+    
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+    
+                            </p>
+                            <div class="end text-end">
+                                <i class="fa-solid fa-arrow-right fa-fade" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;"></i>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box lh-lg mb-3 bg-light p-3" style="border-top:  solid 7px #ffca01; padding: 5px;">
+                            <h3>TIPS & IDEAS
+
+    
+    
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+    
+                            </p>
+                            <div class="end text-end">
+                                <i class="fa-solid fa-arrow-right fa-fade" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;"></i>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box lh-lg mb-3 bg-light p-3" style="border-top:  solid 7px #ffca01; padding: 5px;">
+                            <h3>REPAIR SERVICES
+
+    
+    
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed vulputate mi sit amet mauris commodo quis imperdiet. Leo duis ut diam quam nulla porttitor.
+    
+                            </p>
+                            <div class="end text-end">
+                                <i class="fa-solid fa-arrow-right fa-fade" style="color: #000000;background-color: #ffca01;padding: 10px;border-radius: 50%;"></i>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            
+    
+    
+            </div>
+        </div>
+        <!-- end professional -->
+        <!-- -------------------------------------------------------------------------- -->
+        <!-- start middle -->
+        <div class="middel">
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row g-0 align-items-center">
+                  <div class="col-md-6 col-lg-6">
+                    <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2531eeef587b54518bb47971/-min.jpg" class="img-fluid rounded"  alt="">
+                 </div>
+                  <div class="col-md-6 col-lg-6">
+                    <div class="card-body">
+                        <h1 class="text-dark">Meet Your Home <br> Service Experts</h1>
+                        <p style="font-style: italic;">Image for Freepik</p>
+                        <h4 class="text-dark"> <i class="fa-solid fa-check" style="color: #000000;border:  solid 2px black;padding: 3px;border-radius: 5px;margin-right: 10px;"></i>Emergency Repairs
+                        </h4>
+                        <h4 class="text-dark"><i class="fa-solid fa-check" style="color: #000000;border:  solid 2px black;padding: 3px;border-radius: 5px;margin-right: 10px;"></i>Electrical Repair
+                        </h4>
+                        <h4 class="text-dark"><i class="fa-solid fa-check" style="color: #000000;border:  solid 2px black;padding: 3px;border-radius: 5px;margin-right: 10px;"></i>Circuit Breakers
+                        </h4>
+                        <h4 class="text-dark"><i class="fa-solid fa-check" style="color: #000000;border:  solid 2px black;padding: 3px;border-radius: 5px;margin-right: 10px;"></i>Ceiling Fans
+                        </h4>
+                        <h4 class="text-dark"><i class="fa-solid fa-check" style="color: #000000;border:  solid 2px black;padding: 3px;border-radius: 5px;margin-right: 10px;"></i>Generators
+                        </h4>
+                        <button class="btn btn-outline-dark mt-2">Learn More</button>
+                    </div>
+                   </div>
+                </div>
+              </div>
+        </div>
+        <!-- end middle -->
+
+    <!-- -------------------------------------------------------------------------- -->
+    <!-- start footer -->
+    <div class="footer mt-5 bg-dark p-3">
+        <div class="continer m-2">
+           <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="card text-bg-light mb-3" style="max-width: 100%;">
+                    <div class="card-header">Email-Us <i class="fa-solid fa-envelope" style="color: #000000;margin-left: 5px;"></i></div>
+                    <div class="card-body">
+                      <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, culpa hic? Possimus, reprehenderit. Natus, repellat!</p>
+                      <button class="btn btn-danger">SUMBIT</button>
+                    </div>
+                </div>
+                  
+
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card text-bg-light mb-3" style="max-width: 100%;">
+                    <div class="card-header">Whatapp Supports <i class="fa-brands fa-whatsapp" style="color: #136c21;margin-left: 5px;"></i></div>
+                    <div class="card-body">
+                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, culpa hic? Possimus, reprehenderit. Natus, repellat!</p>
+                        <button class="btn btn-danger">+00223345</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card text-bg-light mb-3" style="max-width: 100%;">
+                    <div class="card-header">Live Chat <i class="fa-solid fa-chart-line" style="color: #000000;margin-left: 5px;"></i></div>
+                    <div class="card-body">
+                        <p class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, culpa hic? Possimus, reprehenderit. Natus, repellat!</p>
+                        <button class="btn btn-danger">Live Chat</button>
+                </div>
+            </div>
+            
+           </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    <!-- ----------------------------------------------------------------------------------------- -->
+    <!-- start end -->
+    <div class="by" style="border-radius: 20px;">
+        <div class="endd p-5" style="background-color: #444;border-radius: 20px;">
+            <div class="continer text-center">
+                <p class="text-light">Sample text. Click to select the Text Element.
+    
+                </p>
+                <p class="text-light">Free CSS Templates created with HTML Layout generator.
+                </p>
+                <p class="text-light" style="font-style: italic;">Design By Omar Rehan</p>
+            </div>
+        </div>
+    </div>
+    <!-- end end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
